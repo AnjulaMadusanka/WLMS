@@ -1,0 +1,67 @@
+// layout 
+
+@use "layout/layout.scss";
+
+// components
+@use "components/common.scss";
+@use "components/textInput.scss";
+@use "components/textArea.scss";
+@use "components/search.scss";
+@use "components/components.scss";
+@use "components/dropDown.scss";
+@use "components/verticalOverlayMenu.scss";
+@use "components/dashboardCard.scss";
+@use "components/reviewCard.scss";
+@use "components/drawer.scss";
+@use "components/initialCard.scss";
+@use "components/phonenumber.scss";
+@use "components/modal.scss";
+
+// pages
+@use "pages/login.scss";
+@use "pages/welcome.scss";
+@use "pages/forgotPassword.scss";
+@use "pages/splash-screen.scss";
+@use "pages/dashboard.scss";
+@use "pages/students.scss";
+@use "pages/users.scss";
+@use "pages/adminCourse.scss";
+@use "pages/adminReview.scss";
+@use "pages/adminQuiz.scss";
+@use "pages/adminForum.scss";
+@use "pages/Profile.scss";
+@use "pages/adminReports.scss";
+@use "pages/courseview.scss";
+@use "pages/adminAnnouncement.scss";
+@use "pages/quiz.scss";
+@use "pages/initialScreen.scss";
+@use "pages/course.scss";
+@use "pages/adminPromoCode.scss";
+
+
+// plugins
+@use "plugins/ex-component-tour.scss";
+@use "plugins/ex-component-upload.scss";
+@use "plugins/form-validation.scss";
+@use "plugins/switchery.scss";
+@use "plugins/cropper/ex-component-image-cropper.scss";
+
+// Responsive
+@use "responsive/responsiveDashboard.scss";
+@use "responsive/responsiveStudents.scss";
+@use "responsive/responsiveUsers.scss";
+@use "responsive/responsiveAdminCourse.scss";
+@use "responsive/responsiveAdminReview.scss";
+@use "responsive/responsiveAdminQuiz.scss";
+@use "responsive/responsiveAdminForum.scss";
+@use "responsive/responsiveAdminReports.scss";
+@use "responsive/responsiveAdminAnnouncement.scss";
+@use "responsive/responsiveAdminInitialScreen.scss";
+@use "responsive/responsiveStudentCourse.scss";
+
+// Themes
+@use "themes/layout-dark.scss";
+
+
+
+

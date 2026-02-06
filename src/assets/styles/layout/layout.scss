@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;600;800&display=swap');
+
+.layout-main-container {
+    display: flex;
+    height: 100svh;
+}
+.sidebar-wrap-layout{
+    width: 240px;
+}
+
+.content-wrap-layout{
+    flex-grow: 1;
+    padding: 10px;
+    width: calc(100% - 240px);
+}
+
+// .custom-scroll-sidebar {
+//     scrollbar-width: none; /* Firefox */
+//     -ms-overflow-style: none; /* Internet Explorer 10+ */
+// }
+// .custom-scroll-sidebar .MuiPaper-root::-webkit-scrollbar {
+//     background-color: #F5F7F8;
+//     width: 0px;
+// }
+
+.custom-scroll-sidebar {
+    overflow-y: auto;
+    scrollbar-width: 5px !important; /* For Firefox */
+    scrollbar-color: #975aff #e1dede !important; /* For Firefox: thumb color first, track color second */
+}
+
+/* WebKit Browsers (Chrome, Safari) */
+.custom-scroll-sidebar::-webkit-scrollbar {
+    width: 6px !important; /* Set the scrollbar width */
+}
+
+.custom-scroll-sidebar::-webkit-scrollbar-track {
+    background-color: #e1dede !important; /* Track background color */
+}
+
+.custom-scroll-sidebar::-webkit-scrollbar-thumb {
+    background-color: #975aff !important; /* Thumb (scroller) color */
+    border-radius: 10px !important; /* Makes the thumb rounded */
+}
+
+

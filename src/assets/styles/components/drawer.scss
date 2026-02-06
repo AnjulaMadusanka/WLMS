@@ -1,0 +1,27 @@
+.active-tab > span{
+    color: #9834F0 !important;
+    font-weight: 600;
+}
+
+.inactive-tab > span{
+    color: #4a6375 !important;
+    font-weight: 500;
+}
+
+.sidenav-icon {
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    color: #4a6375 !important;
+  }
+
+.drawer-tab{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+  
+}

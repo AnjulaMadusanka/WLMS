@@ -1,0 +1,224 @@
+import React, { useEffect, useState } from 'react';
+import { CssBaseline } from '@mui/material';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { BrowserRouter, Route, Routes, RouterProvider } from 'react-router-dom';
+// import StudentScreenContainer from './component/organism/Screens/StudentScreenContainer';
+import LoginScreen from './module/auth/screen/LoginScreen';
+import LoginScreenContainer from './component/organism/Screens/LoginScreenContainer';
+import WelcomeScreen from './module/auth/screen/WelcomeScreen';
+import CourseViewScreen from './module/auth/screen/CourseViewScreen';
+import CourseDetailsScreen from './module/course/screen/CourseDetailsScreen';
+import ResetPasswordScreen from './module/auth/screen/ResetPasswordScreen';
+import Layout from './component/organism/Screens/Layout';
+import DashboardAdminScreen from './module/home/screen/DashboardAdminScreen';
+import { CourseScreen, ForumMessageScreen, InitialScreen, ProfileScreen, QuizAttemptScreen, SplashScreen, StudentAnnouncementScreen, StudentMessageScreen } from './module';
+import _ from "lodash";
+import StudentsScreen from './module/students/screen/StudentsScreen';
+import AdminCourseScreen from './module/course/screen/admin/AdminCourseScreen';
+import StudentReportScreen from './module/reports/screen/StudentReport';
+import { USER_ROLE } from './core/Constant';
+import { Provider } from "react-redux"
+import { store, appHistory } from "./core/modules/StoreCreator";
+import { Router } from "react-router";
+
+import {
+  SampleClassScreen,
+  SampleVideoScreen,
+  DashboardScreen,
+  CourseVideoScreen,
+  QuizStartScreen,
+  QuizMainScreen,
+  ForumMainScreen,
+  WebinarMainScreen,
+  UsersScreen,
+  ReviewScreen,
+  AdminWebinarMainScreen,
+  AdminQuizMainScreen,
+  AdminQuestionsScreen,
+  AdminSubmissionHistoryScreen,
+  AdminMainForumScreen,
+  AdminViewForumScreen,
+  AdminViewForumStudentScreen,
+  AdminMessageMainScreen,
+  AdminChatScreen,
+  PaymentReportScreen,
+  AdminAnnouncementScreen,
+  VideoScreen
+} from './module';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#5771ea",
+    },
+    secondary: {
+      main: "#0r6ab4",
+    },
+  },
+  typography: {
+    fontFamily: `Montserrat`,
+  },
+  components: {
+    MuiInput: {
+      styleOverrides: {
+        underline: {
+          "&&::before": {
+            borderBottom: "none",
+          },
+          "&&:hover::before": {
+            borderBottom: "none",
+          },
+          "&&::after": {
+            borderBottom: "none",
+          },
+        }
+      }
+    },
+    MuiAppBar: {
+      styleOverrides: {
+        colorPrimary: {
+          backgroundColor: "#fff",
+          // boxShadow: "none",
+        }
+      }
+    },
+    MuiDrawer: {
+      styleOverrides: {
+        paper: {
+          backgroundColor: "#fff",
+        }
+      }
+    },
+    MuiList: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#fff",
+        },
+      }
+    },
+    MuiListItemText: {
+      styleOverrides: {
+        primary: {
+          color: "black"
+        }
+      }
+    },
+    MuiListItemButton: {
+      styleOverrides: {
+        root: {
+          "&&:hover": {
+            backgroundColor: "#28B88226",
+          },
+        }
+      }
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          // "&&:hover": {
+          // },
+          "&&:focused": {
+            borderColor: 'red',
+            borderWidth: 2,
+          },
+
+        }
+      }
+    },
+
+    MuiButton: {
+      styleOverrides: {
+        root: ({ ownerState }) => ({
+          '&:hover': {
+            backgroundColor: "#5ECAA1 !important"
+          },
+          '&:active': {
+            backgroundColor: "#239E70 !important"
+          },
+        }),
+      },
+    },
+
+  }
+});
+
+
+function App() {
+  const [loading, setLoading] = useState(true);
+  const [userType, setUSerType] = useState(USER_ROLE.STUDENT);
+
+  useEffect(() => {
+    _.delay(() => {
+      setLoading(false)
+    }, 3000)
+  }, [])
+
+  return (
+    <Provider store={store}>
+      {loading ?
+        <SplashScreen />
+        : <>
+          <CssBaseline />
+          <ThemeProvider theme={theme}>
+              <BrowserRouter>
+                <RouterProvider history={appHistory}/>
+                <Routes>
+                  <Route path="/">
+                    <Route element={<LoginScreenContainer />}>
+                      {/* <Route index element={<LoginScreen />} />
+                    <Route path="/welcome" element={<WelcomeScreen />} /> */}
+                      <Route index element={<InitialScreen />} />
+                      <Route path="/welcome" element={<WelcomeScreen />} />
+                      <Route path="/login" element={<LoginScreen />} />
+                      <Route path="/courseview" element={<CourseViewScreen />} />
+                      <Route path="/sampleclass" element={<SampleClassScreen />} />
+                      <Route path="/samplevideo" element={<SampleVideoScreen />} />
+                      <Route path="/reset-password" element={<ResetPasswordScreen />} />
+                    </Route>
+                    <Route element={<Layout userRole={userType} />}>
+                      {/* admin routes */}
+                      <Route path="/admin-dashboard" element={<DashboardAdminScreen />} />
+                      <Route path="/admin-students" element={<StudentsScreen />} />
+                      <Route path="/admin-users" element={<UsersScreen />} />
+                      <Route path="/admin-course" element={<AdminCourseScreen />} />
+                      <Route path="/admin-review" element={<ReviewScreen />} />
+                      <Route path="/admin-webinar" element={<AdminWebinarMainScreen />} />
+                      <Route path="/admin-quiz" element={<AdminQuizMainScreen />} />
+                      <Route path="/admin-add-questions" element={<AdminQuestionsScreen />} />
+                      <Route path="/admin-submission-history" element={<AdminSubmissionHistoryScreen />} />
+                      <Route path="/admin-forum" element={<AdminMainForumScreen />} />
+                      <Route path="/admin-view-forum" element={<AdminViewForumScreen />} />
+                      <Route path="/admin-view-forum-student" element={<AdminViewForumStudentScreen />} />
+                      <Route path="/admin-view-message" element={<AdminMessageMainScreen />} />
+                      <Route path="/admin-chat" element={<AdminChatScreen />} />
+                      <Route path="/admin-student-report" element={<StudentReportScreen />} />
+                      <Route path="/admin-payment-report" element={<PaymentReportScreen />} />
+                      <Route path="/admin-announcement" element={<AdminAnnouncementScreen />} />
+                      <Route path="/admin-video" element={<VideoScreen />} />
+
+
+                      {/* student routes */}
+                      <Route path="/webinar" element={<WebinarMainScreen />} />
+                      <Route path="/dashboard" element={<DashboardScreen />} />
+                      <Route path="/course-catalog" element={<CourseScreen />} />
+                      <Route path="/course-details" element={<CourseDetailsScreen />} />
+                      <Route path="/quiz" element={<QuizStartScreen />} />
+                      <Route path="/quiz-attempt" element={<QuizAttemptScreen />} />
+                      <Route path="/forum" element={<ForumMainScreen />} />
+                      <Route path="/forum-message" element={<ForumMessageScreen />} />
+                      <Route path="/message" element={<StudentMessageScreen />} />
+                      <Route path="/profile" element={<ProfileScreen />} />
+                      <Route path="/announcement" element={<StudentAnnouncementScreen />} />
+                    </Route>
+                  </Route>
+                </Routes>
+              </BrowserRouter>
+          </ThemeProvider>
+        </>}
+
+    </Provider>
+  );
+
+}
+
+export default App;

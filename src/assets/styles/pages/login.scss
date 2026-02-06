@@ -1,0 +1,68 @@
+.login-main-container {
+    height: 100vh;
+}
+.login-inner-container {
+    display: flex;
+    height: inherit;
+    width: 100%;
+    // background-color: aquamarine;
+}
+
+.login-logo-section {
+    height: inherit;
+    background-image: url("../../Images/authSection/bg-login.jpeg");
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-section {
+    // flex-grow: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-logo {
+    object-fit: contain;
+    width: 25%;
+    border-radius: 30px;
+}
+
+.login-form-section-wrap {
+    width: 60%;
+    height: inherit;
+}
+.login-heading-wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login-sign-in-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.login-create-account-text {
+    text-align: center;
+    margin-top: 20%; 
+}
+.login-forgot-password{
+    display: flex;
+    justify-content: flex-end;
+}
+
+// Responsive
+
+@media screen and (min-device-width: 320px) and (max-device-width: 740px) {
+    .login-logo-section {
+        display: none;
+    }
+    .login-form-section {
+        width: 100%;
+    }
+}

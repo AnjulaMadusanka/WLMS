@@ -1,0 +1,36 @@
+.admin-review-card-wrap {
+    background-color: #F2F6F8;
+    border-radius: 20px;
+}
+.admin-review-card-content {
+    display: flex;
+   align-items: center;
+    padding: 10px;
+}
+.admin-review-card-top {
+    display: flex;
+   
+}
+.admin-review-avatar {
+    width: fit-content;
+}
+.admin-review-content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 100%;
+}
+.admin-review-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   justify-content: space-between;
+    width: 100px;
+}
+
+.admin-review-date-text {
+    font-family: "Montserrat";
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #324c65bf;
+}

@@ -1,0 +1,69 @@
+.course-review-name {
+    color: #4a6375;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+}
+.course-review-description {
+    color: #4a6375;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.rating-bar-style {
+    height: 8px;
+    border-radius: 10px;
+}
+
+.rating-bar-style-0 {
+    background-color: #f57a18;
+}
+.rating-bar-style-1 {
+    background-color: #fba524;
+}
+
+.rating-bar-style-2 {
+    background-color: #fbbf24;
+}
+
+.rating-bar-style-3 {
+    background-color: #b8a128;
+}
+
+.rating-bar-style-4 {
+    background-color: #22b296;
+}
+.course-catelog-card-gray-bg {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f2f6f8;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    color: #4a6375;
+    margin: 0;
+}
+.course-catalog-card-text {
+    font-family: "Montserrat";
+    font-weight: 550;
+    font-size: 18px;
+    color: #4a6375;
+}
+.course-catalog-card-description {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 15px;
+    color: #4a6375;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    // line-height: 1rem;
+    max-height: 4.5rem;
+    text-align: left;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+}
+

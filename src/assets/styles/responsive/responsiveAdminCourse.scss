@@ -1,0 +1,46 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 960px) {
+    .admin-course-search-btn-section {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        // align-items: center;
+    }
+    .admin-course-search-btn-inner-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        // align-items: center;
+    }
+
+    .admin-course-content-form-wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .admin-course-titles {
+        width: 100%;
+    }
+
+    .admin-course-links {
+        width: 100%;
+    }
+
+    .admin-course-duration {
+        width: 100%;
+    }
+
+    .admin-course-input-group{
+        display:flex;
+        flex-direction: column;
+    }
+    .admin-show-day{
+        display: block;
+        color: #324C65BF;
+        font-family: 'Montserrat', Courier, monospace;
+        font-weight: 700;
+        font-size: small;
+    }
+
+}

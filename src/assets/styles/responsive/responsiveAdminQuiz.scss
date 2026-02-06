@@ -1,0 +1,25 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .admin-quiz-btn-section{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .admin-question-top-btn-section{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    .admin-forum-search-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .admin-forum-search{
+        flex-grow: 20%;
+    }
+    .search-wrap, .search-input{
+        width: 180px;
+    }
+}
+

@@ -1,0 +1,29 @@
+.search-wrap {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2F6F8;
+    border-radius: 15px;
+    // min-width: 350px;
+    background-color:#F2F6F8;
+    // background-color: antiquewhite;
+}
+.search-icon {
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.search-input {
+    flex-grow: 1;
+    input {
+        height: 48px;
+        width: 100%;
+        background-color:#F2F6F8;
+        border: none;
+        padding-left: 0.1px;
+        border-radius: 4px;
+        outline: 0;
+    }
+}

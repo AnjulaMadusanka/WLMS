@@ -1,0 +1,72 @@
+.student-search-btn-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.student-search-btn-inner-section {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    // width: 600px;
+    // background-color: antiquewhite;
+}
+.announcement-card {
+    border-radius: 20px;
+    background-color: #f2f6f8;
+}
+.forum-card{
+    border-radius: 20px;
+    background-color: #f2f6f8;
+    margin: 3%;
+}
+.announcement-link-text-wrap {
+    width: 200px; /* Set the width of your box */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis (...) for overflowed text */
+}
+.announcement-text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d3945;
+}
+.announcement-subtext {
+    font-family: "Montserrat";
+    font-weight: 500;
+    letter-spacing: normal;
+    color: #4a6375;
+}
+.announcement-studytext {
+    font-family: "Montserrat";
+    font-weight: 500;
+    padding: 5px 10px;
+    // border-radius: 5px;
+    min-width: 130px;
+    background-color: #8080f1;
+    text-align: left;
+    color: #fff;
+    white-space: nowrap;
+}
+.announcement-subtext-date{
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #778fa7;
+    text-align: end;
+
+}
+.announcement-link {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    color: #4a6375;
+    margin: 0;
+    padding:0
+}

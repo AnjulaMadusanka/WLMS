@@ -1,0 +1,41 @@
+.reports-form-card-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.admin-report-card-container {
+    margin: 15px;
+}
+
+.admin-report-card-wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #9834F0;
+    border-radius: 20px;
+    padding: 15px;
+    width: fit-content;
+}
+
+.admin-report-card-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.admin-report-card-text-value {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.admin-report-icon {
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+}

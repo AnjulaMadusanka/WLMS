@@ -1,0 +1,116 @@
+.welcome-main-container{
+    display: flex;
+    height: 'fit-content';
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url("../../Images/login_background.jpg");
+    
+}
+
+.welcome-inner-container{
+    display: flex;
+    width:90%;
+    height: fit-content;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.welcome-sub-container{
+    background-color: white;
+    height:fit-content;
+    width: 50%;
+    margin: 3%;
+    padding: 5vh;
+    border-radius:20px;
+    
+}
+.rating-containe{
+    align-content: center;
+    align-items: center;
+}
+
+.header-text{
+    display: flex;
+   font-size: large;
+   flex-direction: row;
+}
+.welcome-box-container{
+    flex-grow: 0;
+    width: 50%;
+    margin: 0 49px 0 0;
+    padding: 0 0 41px;
+    border-radius: 44px;
+    box-shadow: 0 30px 50px -7px rgba(67, 125, 111, 0.18);
+    background-color: #fff;
+  
+}
+.btn-duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #f2f6f8;
+}
+// .login-media-section{
+//     min-width: 65%;
+// }
+// .login-form-section{
+//     backdrop-filter: blur(5px);
+//     // background-color: #04040462;
+//     flex-grow: 1;
+// }
+
+// .login-form-inner-container{
+//     height: fit-content;
+//     padding: 25px;
+   
+// }
+// .login-content-wrap{
+//     display: flex;
+//     flex-direction: column;
+//     margin-top: 25%;
+//     // margin-bottom: 32%;
+//     gap: 35px;
+
+// }
+
+// .login-form-text-wrap h2{
+//     color: #ffffff;
+// }
+
+// .login-sign-in-btn{
+//     text-align: end;
+// }
+// .login-forgot-password p{
+// color: #ffffff;
+// }
+// .login-forgot-password p :hover{
+//     cursor: pointer !important;
+// }
+
+
+
+
+// Responsive 
+
+@media screen and (min-device-width: 320px) and (max-device-width: 740px) {
+    .login-main-container{
+        height: 480px;
+        // padding-bottom: 20px;
+    }
+
+    .login-media-section {
+        display: none;
+    }
+
+    // .login-content-wrap{
+    //     margin-top: 58%;
+    // }
+
+}
+
+

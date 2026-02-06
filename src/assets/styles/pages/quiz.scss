@@ -1,0 +1,83 @@
+.quiz-select-box {
+    margin: 0 51.2px 36px 0;
+    padding: 32px 261.9px 32px 31px;
+    border-radius: 20px;
+    box-shadow: 0 30px 50px -7px rgba(76, 82, 116, 0.15);
+    border: solid 3px #8080f1;
+    background-color: rgba(128, 128, 241, 0.12);
+}
+
+.quiz-box {
+    padding: 15px;
+    border-radius: 8px;
+    // width: 100%;
+    // box-shadow: 0 20px 30px -10px rgba(116, 117, 121, 0.15);
+    border: solid 0.6px #c6c4c484;
+    background-color: #fff;
+}
+
+.quiz-attempt-subtext {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    text-align: left;
+    color: #9eafbe;
+}
+.quiz-attempt-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+    flex-grow: 0;
+    height: "200px";
+}
+.quiz-attempt-box-outer{
+    margin-bottom: 2%;
+    padding: 2%;
+    box-shadow: 0 30px 50px -7px rgba(67, 125, 111, 0.18);
+    border: solid 1px #d1d5db;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.quiz-attempt-text {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d3945;
+}
+.quiz-attempt-marktext {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1%;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    border-radius: 15px;
+    background-color: rgba(152, 52, 240, 0.2);
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d3945;
+}
+
+.custom-scroll-quiz {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.custom-scroll-quiz::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

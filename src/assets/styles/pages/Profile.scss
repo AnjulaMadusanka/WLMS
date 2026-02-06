@@ -1,0 +1,866 @@
+.ProfileText {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d3945;
+}
+
+.flexBox {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.ContainerOuter {
+    padding-left: 5.6%;
+    padding-top: 6%;
+}
+
+.css-1e2uqa1 {
+    height: 8px !important;
+    border-radius: 40px;
+    background-color: #9834F0;
+}
+
+.css-11gnura-MuiTabs-indicator {
+    height: 8px !important;
+    border-radius: 40px;
+    background-color: #9834F0;
+}
+
+.css-udtg2y-MuiButtonBase-root-MuiTab-root {
+    text-transform: none !important;
+}
+
+.tab-margin-profile {
+    border-bottom: 1px;
+    border-color: rgba(158, 175, 190, 0.3);
+    border-bottom-style: solid;
+}
+
+.profile-top-space {
+    margin-top: 118px !important;
+}
+
+.profile-cover-box{
+    padding: 0 30px 0 30px;
+}
+
+.Frame-8078 {
+    // width: 1017px;
+     height: 186px;
+    // flex-grow: 0;
+     display: flex;
+    // flex-direction: row;
+    // justify-content: flex-start;
+     align-items: center;
+    // gap: 41px;
+     margin: 0 0 71px;
+     border-radius: 23px;
+     border: solid 1px #d1d5db;
+     margin-right: 5px;
+}
+
+.profileBox {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.profileImage {
+    width: 140px !important;
+    height: 140px !important;
+    box-shadow: 2px 10px 20px 0 rgba(0, 0, 0, 0.16) !important;
+}
+
+.Profile-PictureText {
+    display: flex !important;
+    flex-grow: 0;
+    margin: 0 2px 7px 0;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a6375;
+}
+
+.progress-text{
+    display: flex !important;
+    flex-grow: 0;
+    margin: 0 2px 7px 0;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a6375;
+}
+
+
+
+.Profile-PictureText-description {
+    // width: 455px;
+    // height: 32px;
+    flex-grow: 0;
+    margin: 7px 0 0;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778fa7;
+}
+
+.profileLeft {
+    padding-left: 43px;
+}
+
+
+.profileButton {
+    background-color: #9834F0;
+    border: none;
+    font-family: Montserrat;
+    // font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    align-self: flex-end;
+
+}
+
+.profileButtonCover {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+
+.profileButtonCoverSpB {
+    flex-direction: row !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.profileLightButton {
+    border-radius: 20px;
+    border: solid 2px #778fa7;
+    background-color: #fff;
+}
+
+.buttonPro {
+    width: 365px;
+    height: 69px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 30px 50px -7px rgba(14, 114, 91, 0.28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-sm-btn {
+    width: 100%;
+    height: 64px;
+    flex-grow: 0;
+    border-radius: 24px;
+    border: solid 2px rgba(45, 57, 69, 0.5);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-sm-btn-one {
+    width: 209px;
+    margin-right: 15px;
+}
+
+.pro-sm-btn-two {
+    width: 88px;
+    margin-right: 5px;
+}
+
+.uploadText {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d3945;
+}
+
+.profileBottom {
+   margin-bottom: 25px;
+   padding-right: 5px;
+}
+
+
+.Change-PasswordText {
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a6375;
+}
+
+.Change-Password-description {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a6375;
+}
+
+
+.Change-Password-subtext {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    // margin-left: -20px;
+    font-stretch: normal;
+    font-style: normal;
+    // line-height: 1.48;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a6375;
+}
+
+@media only screen and (max-width: 600px) {
+    .ContainerOuter {
+        padding-left: 0px !important;
+        padding-top: 2% !important;
+    }
+
+    .css-11gnura-MuiTabs-indicator {
+        height: 4px !important;
+    }
+
+    .css-1e2uqa1 {
+        height: 4px !important;
+    }
+
+    .profileButtonCoverSpB {
+        flex-direction: column !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .profileButton {
+        align-self: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1754px) and (max-width: 2000px) {
+
+    .profile-top-space {
+        margin-top: 80px !important;
+    }
+
+    .Frame-8078 {
+        // width: 1017px;
+        max-height: 186px;
+    }
+
+    .profileImage {
+        width: 110px !important;
+        height: 110px !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1754px) {
+
+    .Frame-8078 {
+
+        height: 140px;
+    }
+
+    .Profile-PictureText {
+        font-size: 23px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 16px;
+    }
+
+    .profileImage {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .profileLeft {
+        padding-left:35px;
+    }
+
+    .buttonPro {
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        width: 100%;
+        height: 56px;
+        border-radius: 20px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 170px;
+        margin-right: 10px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 70px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size: 18px;
+    }
+
+    .Change-PasswordText {
+        font-size: 32px;
+    }
+    
+    .Change-Password-description {
+        font-size: 21px;
+    }
+
+    .profile-cover-box{
+        padding: 0 25px 0 25px;
+    }
+
+    .ProfileText {
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (min-width: 1323px) and (max-width: 1400px) {
+
+    .Frame-8078 {
+        height: 120px;
+    }
+
+    .Profile-PictureText {
+        font-size: 20px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 14px;
+    }
+
+    .profileImage {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .profileLeft {
+        padding-left: 30px;
+    }
+
+    .buttonPro {
+        width: 270px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        height: 50px;
+        border-radius: 20px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 150px;
+        margin-right: 10px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 60px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size: 18px;
+    }
+    .Change-PasswordText {
+        font-size: 30px;
+    }
+    
+    .Change-Password-description {
+        font-size: 21px;
+    }
+
+    .profile-cover-box{
+        padding: 0 20px 0 20px;
+    }
+
+    .ProfileText {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (min-width: 1130px) and (max-width: 1323px) {
+
+    .Frame-8078 {
+        height: 100px;
+    }
+
+    .Profile-PictureText {
+        font-size: 18px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 12px;
+    }
+
+    .profileImage {
+        width: 60px !important;;
+        height: 60px !important;;
+    }
+
+    .profileLeft {
+        padding-left: 25px;
+    }
+
+    .buttonPro {
+        width: 270px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        height: 55px;
+        border-radius: 18px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 110px;
+        margin-right: 5px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 65px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size: 16px;
+    }
+
+    .Change-PasswordText {
+        font-size: 25px;
+    }
+    
+    .Change-Password-description {
+        font-size: 18px;
+    }
+
+    .profile-cover-box{
+        padding: 0 18px 0 18px;
+    }
+
+    .ProfileText {
+        font-size: 23px !important;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1130px) {
+
+    .Frame-8078 {
+        height: 100px;
+    }
+
+    .Profile-PictureText {
+        font-size: 16px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 11px;
+    }
+
+    .profileImage {
+        width: 50px !important;;
+        height: 50px !important; ;
+    }
+
+    .profileLeft {
+        padding-left: 20px;
+    }
+
+    .buttonPro {
+        width: 250px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        height: 50px;
+        border-radius: 18px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 110px;
+        margin-right: 5px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 65px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size: 16px;
+    }
+
+    .Change-PasswordText {
+        font-size: 23px;
+    }
+    
+    .Change-Password-description {
+        font-size: 16px;
+    }
+
+    .profile-cover-box{
+        padding: 0 15px 0 15px;
+    }
+
+    .ProfileText {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+
+    .Frame-8078 {
+       height: 80px;
+    }
+
+    .Profile-PictureText {
+        font-size: 14px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 10px;
+    }
+
+    .profileImage {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .profileLeft {
+        padding-left: 16px;
+    }
+
+    .buttonPro {
+        width: 230px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        height: 50px;
+        border-radius: 18px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 110px;
+        margin-right: 5px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 65px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size: 16px;
+    }
+
+    .Change-PasswordText {
+        font-size: 22px;
+    }
+    
+    .Change-Password-description {
+        font-size: 14px;
+    }
+
+    .profile-cover-box{
+        padding: 0 10px 0 10px;
+    }
+
+    .ProfileText {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+
+    .Frame-8078 {
+        height: 80px;
+    }
+
+    .Profile-PictureText {
+        font-size: 14px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 10px;
+    }
+
+    .profileImage {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .profileLeft {
+        padding-left: 10px;
+    }
+
+    .buttonPro {
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        height: 40px;
+        border-radius: 14px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 90px;
+        margin-right: 5px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 57px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size: 14px;
+    }
+    .Change-PasswordText {
+        font-size: 20px;
+    }
+    
+    .Change-Password-description {
+        font-size: 12px;
+    }
+
+    .profile-cover-box{
+        padding: 0 5px 0 5px;
+    }
+
+    .ProfileText {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1754px) {
+    
+
+    .profile-top-space {
+        margin-top: 72px !important;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+   
+
+    .profile-top-space {
+        margin-top: 58px !important;
+    }
+
+    .Frame-8078 {
+        height: 100px;
+    }
+
+    .Profile-PictureText {
+        font-size: 14px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 10px;
+    }
+
+    .profileImage {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .profileLeft {
+        padding-left: 10px;
+    }
+    .buttonPro {
+        width: 250px;
+        height: 55px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        height: 40px;
+        border-radius: 14px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 90px;
+        margin-right: 5px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 57px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size: 12px;
+    }
+
+    .Change-PasswordText {
+        font-size: 23px;
+    }
+    
+    .Change-Password-description {
+        font-size: 12px;
+    }
+
+    .profile-cover-box{
+        padding: 0 0px 0 0px;
+    }
+    
+    .ProfileText {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+   
+
+    .profile-top-space {
+        margin-top: 28px !important;
+    }
+
+    .Frame-8078 {
+        height: 100px;
+    }
+
+    .Profile-PictureText {
+        font-size: 14px;
+    }
+
+    .Profile-PictureText-description {
+        font-size: 10px;
+    }
+
+    .profileImage {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .profileLeft {
+        padding-left: 10px;
+    }
+
+    .buttonPro {
+        width: 220px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .pro-sm-btn {
+        height: 40px;
+        border-radius: 14px;
+    }
+    
+    .pro-sm-btn-one {
+        width: 80px;
+        margin-right: 5px;
+    }
+    
+    .pro-sm-btn-two {
+        width: 50px;
+        margin-right: 5px;
+    }
+
+    .uploadText {
+        font-size:8px;
+    }
+    .outer-box-all {
+        padding-left: 0px !important
+    }
+
+    .Change-PasswordText {
+        font-size: 23px;
+    }
+    
+    .Change-Password-description {
+        font-size: 12px;
+    }
+
+    .profile-cover-box{
+        padding: 0 0px 0 0px;
+    }
+
+    .ProfileText {
+        font-size: 12px !important;
+    }
+}
+
+.gridMinWidth {
+    width: calc(100% + 24px) !important;
+    // margin-left: -24px !important;
+}
+
+.Change-Password-space {
+    margin-top: 28px;
+    margin-left: 22px;
+}
+
+.profilePageCover {
+    padding-right: 5px
+}

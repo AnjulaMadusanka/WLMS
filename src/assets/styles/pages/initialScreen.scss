@@ -1,0 +1,28 @@
+.initial-screen-container{
+    background-image: url('../../Images/splash_screen_background.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.initial-inner-container{
+    width: 100%;
+}
+.initial-content-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.initial-heading-text{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0
+}

@@ -1,0 +1,19 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 965px) {
+    .admin-review-card-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .admin-review-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    
+    
+}

@@ -1,0 +1,14 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 883px) {
+    .forum-top-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .students-btn-wrap{
+        display: flex;
+        justify-content: flex-end;
+       
+    }
+    .forum-message-width{
+        width: 100%;
+    }
+}

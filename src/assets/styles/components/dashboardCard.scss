@@ -1,0 +1,142 @@
+.dashboard-card-container {
+    max-width: 400px;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: #9834F0;
+    box-shadow: -8px 8px 14px 0 rgba(25, 42, 70, 0.11);
+}
+
+.dashboard-card-wrap {
+    width: inherit;
+}
+
+.dashboard-card-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: inherit;
+}
+
+.dashboard-card-logo {
+    object-fit: contain;
+    width: 120px;
+    height: 120px;
+}
+
+.dashboard-users {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+.dashboard-users-text {
+    font-weight: 700;
+    color: #fff;
+}
+
+.dashboard-student-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% !important;
+    flex-grow: 0;
+    max-height: 350px;
+    min-height: 350px;
+    // margin: 1%;
+    padding: 10px 15px 16px 16px;
+    border-radius: 0px;
+    box-shadow: 0 5px 10px -2.8px rgba(95, 95, 95, 0.15);
+    border: solid 1px #ededed;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.dashboard-thread-container {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    max-height: 450px;
+    min-height: 350px;
+    flex-grow: 0;
+    margin: 0;
+    padding: 10px 15px 16px 16px;
+    border-radius: 0px;
+    box-shadow: 0 5px 10px -2.8px rgba(95, 95, 95, 0.15);
+    border: solid 1px #ededed;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.dashboard-live-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% !important;
+    min-height: 350px;
+    max-height: 350px;
+    flex-grow: 0;
+   // margin: 1%;
+    padding: 10px 20px 16px 16px;
+    border-radius: 0px;
+    box-shadow: 0 5px 10px -2.8px rgba(95, 95, 95, 0.15);
+    border: solid 1px #ededed;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.dashboard-student-heading {
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a6375;
+}
+
+.dashboard-student-subheading {
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778fa7;
+}
+
+.dashboard-student-subtext {
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #778fa7;
+}
+
+.btn-dashboard-course {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 35.1px 0 0;
+    // padding: 16px 82px;
+    background-color: #f2f6f8;
+}
+
+.dashboard-grid {
+    max-width: 1000;
+}

@@ -1,0 +1,106 @@
+.course-main{
+    display: flex;
+    width: '100%';
+    height: 'fit-content';
+    min-height: 100vh;
+    justify-content: center;
+}
+.sample-class{
+  display: flex;
+  flex-direction: row;
+}
+.content-image{
+   width: 60vh;
+   height: 60vh;
+  }
+.course-main-container{
+    display: flex;
+    width: '100%';
+    height: 'fit-content';
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.signup-price-container{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 76px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid 0.5px #e6e6e6;
+    background-color: #fff;
+    box-shadow: 0 30px 50px -7px rgba(67, 125, 111, 0.18);
+    background-color: #fff;
+}
+.signup-price-subtext{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    // margin-left: 2%;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a6375;
+}
+.signup-price-text{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d3945;
+}
+.signup-price-title{
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+.signup-title{
+    font-family: 'Montserrat';
+    align-self: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 800;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2d3945;
+}
+
+// Responsive 
+
+@media screen and (min-device-width: 320px) and (max-device-width: 740px) {
+    .login-main-container{
+        height: 480px;
+        // padding-bottom: 20px;
+    }
+
+    .login-media-section {
+        display: none;
+    }
+
+    // .login-content-wrap{
+    //     margin-top: 58%;
+    // }
+
+}
+
+

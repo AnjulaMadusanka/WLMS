@@ -1,0 +1,19 @@
+.dashboard-main-container{
+    width: 100%;
+}
+
+.dashboard-content-wrap{
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    align-items: center;
+}
+.dashboard-card-section{
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+}
+.admin-dashboard-heading{
+    margin-bottom: 8%;
+}
+
